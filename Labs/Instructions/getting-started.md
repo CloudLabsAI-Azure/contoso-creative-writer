@@ -1,4 +1,4 @@
-# Build a Creative App using Azure AI and Prompty
+# Build Creative App using Azure AI and Prompty
 
 ### Overall Estimated Duration: 2 Hours
 
