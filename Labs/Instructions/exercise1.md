@@ -166,6 +166,13 @@ In this task, you will be using the Azure Developer CLI (azd) to deploy the reso
    
    > If you encounter an error like **error executing step command** please ignore it and proceed to the next exercise.
 
+> Congratulations on completing the task! Now, it's time to validate it. Here are the steps:
+> Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="45d3bb64-1c15-4974-9ead-629db5887289" />
+
 ## Summary
 
 In this exercise, you have learned how to use the Azure Developer CLI (AZD) to deploy resources for your application. You explored how to define and configure infrastructure using a Bicep file, initialized tracing for monitoring, and successfully deployed resources such as container apps and AI environments using AZD.
