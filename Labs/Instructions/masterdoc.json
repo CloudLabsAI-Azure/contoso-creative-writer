@@ -5,23 +5,23 @@
       "BaseURL": "https://github.com/CloudLabsAI-Azure/contoso-creative-writer/tree/stage",
       "Files": [
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/contoso-creative-writer/refs/heads/stage/Labs/Instructions/getting-started.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/contoso-creative-writer/refs/heads/MS-Innovation/Labs/Instructions/getting-started.md",
           "Order": 1
         },
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/contoso-creative-writer/refs/heads/stage/Labs/Instructions/exercise1.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/contoso-creative-writer/refs/heads/MS-Innovation/Labs/Instructions/exercise1.md",
           "Order": 2
         },
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/contoso-creative-writer/refs/heads/stage/Labs/Instructions/exercise2.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/contoso-creative-writer/refs/heads/MS-Innovation/Labs/Instructions/exercise2.md",
           "Order": 3
         },
         {
-            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/contoso-creative-writer/refs/heads/stage/Labs/Instructions/exercise3.md",
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/contoso-creative-writer/refs/heads/MS-Innovation/Labs/Instructions/exercise3.md",
             "Order": 4
         },
         {
-            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/contoso-creative-writer/refs/heads/stage/Labs/Instructions/exercise4.md",
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/contoso-creative-writer/refs/heads/MS-Innovation/Labs/Instructions/exercise4.md",
             "Order": 5
         }
       ]

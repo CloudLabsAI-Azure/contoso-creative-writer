@@ -1,6 +1,6 @@
 # Exercise 4: Debugging and Evaluating Application Logic
 
-### Estimated Duration: 30 minutes
+### Estimated Duration: 1 Hour
 
 ## Lab Scenario
 

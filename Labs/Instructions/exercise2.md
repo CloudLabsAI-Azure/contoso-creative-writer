@@ -1,6 +1,6 @@
 # Exercise 2: Exploring the Building Blocks of the Application [Read-Only]
 
-### Estimated Duration: 30 minutes
+### Estimated Duration: 1 Hour
 
 ## Lab Scenario
 

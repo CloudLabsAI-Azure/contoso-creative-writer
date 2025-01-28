@@ -1,6 +1,6 @@
 # Exercise 3: Testing the Application: API and Web Components
 
-### Estimated Duration: 30 minutes
+### Estimated Duration: 1 Hour
 
 ## Lab Scenario
 

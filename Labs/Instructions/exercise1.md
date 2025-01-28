@@ -1,6 +1,6 @@
 # Exercise 1: Deploying Resources with Azure Developer CLI
 
-### Estimated Duration: 30 minutes
+### Estimated Duration: 1 Hour
 
 ## Lab Scenario
 
