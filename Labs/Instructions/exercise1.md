@@ -162,19 +162,20 @@ In this task, you will be using the Azure Developer CLI (azd) to deploy the reso
 
    ![](../media/ex1newimg5.png)
 
+1. In the next prompt, it will ask to select resource group. Use the arrow keys and select **rg-creative** resource group from the list.
+
+   ![](../media/ex1newimg6.png)
+
    >This may take upto 15 minutes to deploy all the rsources, till then please move to next exercise as that is a read-only exercise where you will get to know the core application and technology stacks used.
    
    > If you encounter an error like **error executing step command** please ignore it and proceed to the next exercise.
 
-> Congratulations on completing the task! Now, it's time to validate it. Here are the steps:
-
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
-
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-
-> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-<validation step="45d3bb64-1c15-4974-9ead-629db5887289" />
+   <validation step="45d3bb64-1c15-4974-9ead-629db5887289" />
+   
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Summary
 
