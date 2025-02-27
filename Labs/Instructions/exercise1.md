@@ -27,7 +27,7 @@ In this task, you will gain an understanding of the Azure Developer CLI (azd) an
 
    ![](../media/ex1img6.png)
 
-1. Navigate to `C:\creative-writer\contoso-creative-writer-stage` directory, click on **Select folder**.
+1. Navigate to `C:\creative-writer\contoso-creative-writer-code-files-main` directory, click on **Select folder**.
 
    ![](../media/ex1newimg1.png)
 
@@ -35,7 +35,7 @@ In this task, you will gain an understanding of the Azure Developer CLI (azd) an
 
    ![](../media/ex1img7.png)
 
-1. Once you have the **contoso-creative-writer-stage** directory opened, ensure you have the source code files from the **explorer pane**
+1. Once you have the **contoso-creative-writer-code-files-main** directory opened, ensure you have the source code files from the **explorer pane**
 
    ![](../media/ex1newimg2.png)
    
