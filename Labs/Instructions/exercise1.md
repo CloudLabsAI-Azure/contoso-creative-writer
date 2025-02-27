@@ -85,23 +85,6 @@ In this task, you will gain an understanding of the Azure Developer CLI (azd) an
 
    >Additionally, it handles the setup for application insights and container registries.
 
-1. The next part defines the configuration for deploying a Bing Search resource in Azure. It is set to be deployed globally and provides the search functionality for the application.
-
-   ```bicep
-   module bing 'core/bing/bing-search.bicep' = {
-   name: 'bing'
-   scope: resourceGroup
-   params: {
-      name: 'agent-bing-search'
-      location: 'global'
-      }
-    }
-   ```
-
-   >This module configures a Bing Search resource in the global region, which will be used for search-related operations.
-
-   >The name and location parameters can be customized to define the Bing service's characteristics.
-
 ### Task 2: Streamlining Azure Resource Deployment with Azure Developer CLI (azd)
 
 In this task, you will be using the Azure Developer CLI (azd) to deploy the resources defined in your Bicep templates to Azure. The Azure Developer CLI simplifies the process of managing infrastructure as code, allowing you to efficiently deploy, manage, and monitor your applications and resources directly from the command line.
