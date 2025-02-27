@@ -16,7 +16,17 @@ After you complete this exercise, you will:
 
 In this task, you will learn how to test the application locally by running both the API and Web parts on your local machine. You will set up the necessary environment, run the components, and verify their functionality.
 
-1. As the **Visual Studio Code** is already open, navigate back to your **Git Bash** terminal and navigate to `/src/api` from the explorer menu. 
+1. As you are on **Visual Studio Code** pane, open **New terminal** from **Terminal** menu using the top menu bar.
+
+   ![](../media/ex1img1.png)
+
+1. Once the terminal is open, select **v (1)** from the right corner and select **Git Bash (2)** from the menu.
+
+   ![](../media/ex1img2.png)
+
+   >**LabTip: Git Bash** is a command-line tool for Windows that lets users run Git commands and Unix-like shell commands.
+
+1. In the **Git Bash** terminal and navigate to `/src/api` from the explorer menu. 
 
    ```bash
    cd src/api

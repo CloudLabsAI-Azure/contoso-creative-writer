@@ -142,10 +142,6 @@ In this task, you will be using the Azure Developer CLI (azd) to deploy the reso
 
 1. Return to your **Visual Studio Code** terminal, now it prompts you to select subscription with a list of subscriptions, enter **1** and hit enter.
 
-1. In the next prompt to select location, select **East US**.
-
-1. In the next prompt for selecting resource group, select **rg-creative** resource group from the list.
-
 1. Run the following command to set execution policy to avoid any security related issues.
 
    ```
@@ -162,11 +158,15 @@ In this task, you will be using the Azure Developer CLI (azd) to deploy the reso
 
    ![](../media/ex1newimg4.png)
 
-1. In the next prompt, it will ask to select location. Use the arrow keys and select **Canada East** region from the list.
+1. In the next prompt, it will ask to select location. Use the arrow keys and select **East US** region from the list.
 
-   ![](../media/ex1newimg5.png)
+1. In the next prompt, select **rg-creative** for resource group.
+
+   ![](../media/rg-sel.png)
 
    >This may take upto 15 minutes to deploy all the rsources, till then please move to next exercise as that is a read-only exercise where you will get to know the core application and technology stacks used.
+
+   >If you face any error related to deployment, please rerun `azd up` command.
    
    > If you encounter an error like **error executing step command** please ignore it and proceed to the next exercise.
 
