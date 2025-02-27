@@ -110,20 +110,14 @@ In this task, you will be using the Azure Developer CLI (azd) to deploy the reso
 
    ![](../media/ex1img1.png)
 
-1. Once the terminal is open, select **v (1)** from the right corner and select **Git Bash (2)** from the menu.
-
-   ![](../media/ex1img2.png)
-
-   >**LabTip: Git Bash** is a command-line tool for Windows that lets users run Git commands and Unix-like shell commands.
-
-1. Once the **GitBash** terminal opened, run the following command to Sign in and authenticate the azd tool.
+1. Once the terminal opened, run the following command to Sign in and authenticate the azd tool.
 
    ```bash
    azd auth login
    ```
 1. Once you run this command, a sign in page opens up, as you have already logged in to portal you just need to select your account and click continue.
 
-1. Once you logged in successfully, navigate back to your **GitBash** terminal and run the following command to authenticate **Azure CLI** tool aswell.
+1. Once you logged in successfully, navigate back to your terminal and run the following command to authenticate **Azure CLI** tool aswell.
 
    ```bash
    az login
@@ -147,6 +141,16 @@ In this task, you will be using the Azure Developer CLI (azd) to deploy the reso
 1. When prompts, click on **No, sign in to this app only** and continue.
 
 1. Return to your **Visual Studio Code** terminal, now it prompts you to select subscription with a list of subscriptions, enter **1** and hit enter.
+
+1. In the next prompt to select location, select **East US**.
+
+1. In the next prompt for selecting resource group, select **rg-creative** resource group from the list.
+
+1. Run the following command to set execution policy to avoid any security related issues.
+
+   ```
+   Set-ExecutionPolicy Bypass -Scope LocalMachine -Force
+   ```
 
 1. Once you have successfully logged in, run the following command which will deploy all the defined resources in Azure.
 
