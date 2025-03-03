@@ -141,15 +141,11 @@ In this task, you will be using the Azure Developer CLI (azd) to deploy the reso
 
    ![](../media/ex1newimg4.png)
 
-1. In the next prompt, it will ask to select location. Use the arrow keys and select **East US** region from the list.
+1. In the next prompt, it will ask to select location. Use the arrow keys and select **<inject key="Region" enableCopy="false"/>** region from the list.
 
 1. In the next prompt, select **rg-creative** for resource group.
 
    ![](../media/rg-sel.png)
-
-1. In the next prompt, it will ask to select resource group. Use the arrow keys and select **rg-creative** resource group from the list.
-
-   ![](../media/ex1newimg6.png)
 
    >This may take upto 15 minutes to deploy all the rsources, till then please move to next exercise as that is a read-only exercise where you will get to know the core application and technology stacks used.
 
