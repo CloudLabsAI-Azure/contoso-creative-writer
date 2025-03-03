@@ -27,7 +27,7 @@ In this task, you will gain an understanding of the Azure Developer CLI (azd) an
 
    ![](../media/ex1img6.png)
 
-1. Navigate to `C:\creative-writer\contoso-creative-writer-stage` directory, click on **Select folder**.
+1. Navigate to `C:\creative-writer\contoso-creative-writer-code-files-main` directory, click on **Select folder**.
 
    ![](../media/ex1newimg1.png)
 
@@ -35,7 +35,7 @@ In this task, you will gain an understanding of the Azure Developer CLI (azd) an
 
    ![](../media/ex1img7.png)
 
-1. Once you have the **contoso-creative-writer-stage** directory opened, ensure you have the source code files from the **explorer pane**
+1. Once you have the **contoso-creative-writer-code-files-main** directory opened, ensure you have the source code files from the **explorer pane**
 
    ![](../media/ex1newimg2.png)
    
@@ -85,23 +85,6 @@ In this task, you will gain an understanding of the Azure Developer CLI (azd) an
 
    >Additionally, it handles the setup for application insights and container registries.
 
-1. The next part defines the configuration for deploying a Bing Search resource in Azure. It is set to be deployed globally and provides the search functionality for the application.
-
-   ```bicep
-   module bing 'core/bing/bing-search.bicep' = {
-   name: 'bing'
-   scope: resourceGroup
-   params: {
-      name: 'agent-bing-search'
-      location: 'global'
-      }
-    }
-   ```
-
-   >This module configures a Bing Search resource in the global region, which will be used for search-related operations.
-
-   >The name and location parameters can be customized to define the Bing service's characteristics.
-
 ### Task 2: Streamlining Azure Resource Deployment with Azure Developer CLI (azd)
 
 In this task, you will be using the Azure Developer CLI (azd) to deploy the resources defined in your Bicep templates to Azure. The Azure Developer CLI simplifies the process of managing infrastructure as code, allowing you to efficiently deploy, manage, and monitor your applications and resources directly from the command line.
@@ -110,20 +93,14 @@ In this task, you will be using the Azure Developer CLI (azd) to deploy the reso
 
    ![](../media/ex1img1.png)
 
-1. Once the terminal is open, select **v (1)** from the right corner and select **Git Bash (2)** from the menu.
-
-   ![](../media/ex1img2.png)
-
-   >**LabTip: Git Bash** is a command-line tool for Windows that lets users run Git commands and Unix-like shell commands.
-
-1. Once the **GitBash** terminal opened, run the following command to Sign in and authenticate the azd tool.
+1. Once the terminal opened, run the following command to Sign in and authenticate the azd tool.
 
    ```bash
    azd auth login
    ```
 1. Once you run this command, a sign in page opens up, as you have already logged in to portal you just need to select your account and click continue.
 
-1. Once you logged in successfully, navigate back to your **GitBash** terminal and run the following command to authenticate **Azure CLI** tool aswell.
+1. Once you logged in successfully, navigate back to your terminal and run the following command to authenticate **Azure CLI** tool aswell.
 
    ```bash
    az login
@@ -148,6 +125,12 @@ In this task, you will be using the Azure Developer CLI (azd) to deploy the reso
 
 1. Return to your **Visual Studio Code** terminal, now it prompts you to select subscription with a list of subscriptions, enter **1** and hit enter.
 
+1. Run the following command to set execution policy to avoid any security related issues.
+
+   ```
+   Set-ExecutionPolicy Bypass -Scope LocalMachine -Force
+   ```
+
 1. Once you have successfully logged in, run the following command which will deploy all the defined resources in Azure.
 
    ```
@@ -158,15 +141,19 @@ In this task, you will be using the Azure Developer CLI (azd) to deploy the reso
 
    ![](../media/ex1newimg4.png)
 
-1. In the next prompt, it will ask to select location. Use the arrow keys and select **Canada East** region from the list.
+1. In the next prompt, it will ask to select location. Use the arrow keys and select **East US** region from the list.
 
-   ![](../media/ex1newimg5.png)
+1. In the next prompt, select **rg-creative** for resource group.
+
+   ![](../media/rg-sel.png)
 
 1. In the next prompt, it will ask to select resource group. Use the arrow keys and select **rg-creative** resource group from the list.
 
    ![](../media/ex1newimg6.png)
 
    >This may take upto 15 minutes to deploy all the rsources, till then please move to next exercise as that is a read-only exercise where you will get to know the core application and technology stacks used.
+
+   >If you face any error related to deployment, please rerun `azd up` command.
    
    > If you encounter an error like **error executing step command** please ignore it and proceed to the next exercise.
 
